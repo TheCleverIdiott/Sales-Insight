@@ -1,6 +1,6 @@
 # Sales Insights Data Analysis Project 🛰
 
-## Introduction 🙋🏻‍♂️
+## Introduction
 * **Atliq Hardware** is a company which supplies computer hardware and peripherals to various clients such as excel stores, nomad stores, Surge stores etc. across India. 
 * Atliq hardware has a head office in Delhi and they have many regional offices across India, 
 * The sales director is having a problems tracking sales in this dynamically growing market. The sales director is also having issues trying to obtain insights of his business. Overall, the sales of the company seem to be declining.
