@@ -1,4 +1,4 @@
-# Sales Insights Data Analysis Project 🛰
+# Sales Insights Data Analysis Project
 
 ## Introduction
 * **Atliq Hardware** is a company which supplies computer hardware and peripherals to various clients such as excel stores, nomad stores, Surge stores etc. across India. 
