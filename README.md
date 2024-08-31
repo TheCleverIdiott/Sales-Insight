@@ -8,15 +8,12 @@
 ## About the Project:
 * Performed India based hardware company Sales Insights - A Data Analysis project.
 
-* Developed ETL mappings using SQL to extract the data from unstructured data and transformed it to the staging area to conduct data cleaning and designed star schema data model on Tableau.
+* Developed ETL mappings using SQL to extract the data from unstructured data and transformed it to the staging area to conduct data cleaning.
 
-* Developed a Power BI dashboard to perform analysis, producing quantitative visualizations to draw valuable insights based on different parameters affecting company's performance year on year and to further provide them business solutions and changes.
+## Technology Used 
+* MySQL Workbench CE 
 
-## Technology Used 🔧
-* Microsoft Power BI 📈
-* MySQL Workbench CE 🐬
-
-## Project Planning 👨🏻‍✈️
+## Project Planning
 * Project planning was done using a project management tool called **AIMS Grid**.
 ![Aims Grid](https://github.com/TheCleverIdiott/Sales-Insight/blob/main/AIMS%20Grid.jpg)
 
@@ -81,12 +78,6 @@ where date.year=2020 and and date.month_name="January" and (transactions.currenc
 ## Show total revenue in year 2020 in Chennai
 
 SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON transactions.order_date=date.date where date.year=2020 and transactions.market_code="Mark001";
-
-# 2) Data Analysis Using Power BI:
-
-## Formula to create norm_amount column:
-
-= Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*82 else [sales_amount], type any)
 
 ## Data Visualization 🖼
 * **Dashboard 1:**
