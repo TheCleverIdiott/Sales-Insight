@@ -18,14 +18,14 @@
 
 ## Project Planning 👨🏻‍✈️
 * Project planning was done using a project management tool called **AIMS Grid**.
-![Aims Grid](https://raw.githubusercontent.com/devschow/Sales-Insights-Data-Analysis/main/AIMS%20Grid.jpg)
+![Aims Grid](https://github.com/TheCleverIdiott/Sales-Insight/blob/main/AIMS%20Grid.jpg)
 
 ## The ETL Workflow:
-![ETL Workflow](https://content.altexsoft.com/media/2021/03/the-etl-workflow.png.webp)
+![ETL Workflow](https://github.com/TheCleverIdiott/Sales-Insight/blob/main/ETL_Process.jpg)
 
 ## Data Modeling:
 Star Schema:
-![Data Model](https://raw.githubusercontent.com/devschow/Sales-Insights-Data-Analysis/main/Data_Model.jpg)
+![Data Model](https://github.com/TheCleverIdiott/Sales-Insight/blob/main/Data_Model.jpg)
 
 Main table: 
 - sales transactions 
@@ -90,17 +90,14 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 
 ## Data Visualization 🖼
 * **Dashboard 1:**
-![Dashboard_1](https://raw.githubusercontent.com/devschow/Sales-Insights-Data-Analysis/main/Dashboard_1.jpg)
+![Dashboard_1](https://github.com/TheCleverIdiott/Sales-Insight/blob/main/Dashboard_1.jpg)
 
 * **Dashboard 2:**
-![Dashboard_2](https://raw.githubusercontent.com/devschow/Sales-Insights-Data-Analysis/main/Dashboard_2.jpg)
+![Dashboard_2](https://github.com/TheCleverIdiott/Sales-Insight/blob/main/Dashboard_2.jpg)
 
 The dashboard displays all the key sales-related data, including 
 * Revenue, sales quantity, revenue and sales by market 
 * Revenue trend, Top 5 clients, and Top 5 products.
 
 The sales director can quickly and easily get a deeper understanding of the sales to boost his decision-making by filtering the dashboard by YEAR and MONTH within the observation period.
-
-## 🔗 Let's Connect!
-[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/devarshi-choudhury-367aa11b0/)
 
